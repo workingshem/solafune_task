@@ -1,0 +1,19 @@
+# Core scientific stack
+numpy
+pandas
+
+# Geospatial
+geopandas
+fiona
+rasterio
+shapely
+
+# Machine learning
+scikit-learn
+
+# Visualisation
+matplotlib
+folium
+
+# Notebook / Colab widgets
+ipywidgets
