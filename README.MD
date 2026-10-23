@@ -28,7 +28,7 @@
 
 | # | Assumption |
 |---|------------|
-| A0 | This assignment result analysis assumes that Sentinel Folders Name are arranged in ascending order by date. Hence, Sentinel2_20230812 is 12 August 2023 and Sentinel2_20230912 is 12 September 2023.|
+| A0 | This assignment result analysis assumes that Sentinel Folders Name are arranged in ascending order by date. Hence, Sentinel2_20230812 is 12 August 2023 and Sentinel2_20230912 is 2 September 2023.|
 | A1 | Band files follow Sentinel-2 naming: `B02.tif` (Blue), `B03.tif` (Green), `B04.tif` (Red). Assumes both date folders follow a single naming consistency. *Note: The band names for each band are adjustable in the code.*|
 | A2 | Pixel value **zero (0)** will be assumed as no-data / outside the scene. The pixel value will be converted to NaN to avoid distribution error in calculation. |
 | A3 | The Sentinel-2 L2A files do **not** carry the +1000 BOA reflectance offset (baseline < 04.00). If your files do carry the offset, set `boa_offset = 1000` in the parameters. |
